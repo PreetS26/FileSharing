@@ -13,7 +13,7 @@ export const uploadImage = async (request, response) => {
 
     try {
         const file = await File.create(fileObj);
-        const baseUrl = process.env.BASE_URL || 'http://localhost:4000';
+        const baseUrl = 'http://localhost:4000';
         response.status(200).json({ path: `${baseUrl}/file/${file._id}`});
         console.log(`${baseUrl}/file/${file._id}`);
     } catch (error) {
