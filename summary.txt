@@ -1,0 +1,19 @@
+This is a mern stack project made for sharing the files from one system to another in seamless way
+M Monogodb
+E Express java script
+R React java script
+N Node java script
+In this project the fornt end is made with the help of the react java script and the backend is made with the node java script and the express java script 
+The storage for storing this type of data is stored in the cloud storage of the Monogodb atlas cloud 
+this cloud uses the aws storage from the aws servers and the google cloud servers as a storage and it give some 512 mb of the free storage for the users
+so that they can just test their deployments if working properly or not
+
+1.FrontEnd:-
+Components used in the frontend are:-
+1. React java script
+2. React Router Dom
+3. React Bootstrap
+4. React Icons
+5. Axios it is used to connect the server and the client that isi the backend and the frontend together using the express java script
+6.     Main front end file App.java script
+7.     main server apis used in the file api.java script
